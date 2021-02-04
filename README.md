@@ -42,3 +42,42 @@ Pizza is a savory dish of **Italian** origin and it  is the epitome of a perfect
 ###  Quotes
 “ The purpose of our lives is to be happy.” - *Dalai Lama* <br>
 “You only live once, but if you do it right, once is enough.” - *Mae West*
+
+--------------------------------------
+
+### Google Apps Script
+  
+  Apps Script is a scripting platform developed by Google for light-weight application development in the Google Workspace platform. Google Apps Script was initially developed by Mike Harm as a side project whilst working as a developer on Google Sheets.
+  [About Google Apps Script](https://en.wikipedia.org/wiki/Google_Apps_Script)
+
+  ```
+   Sample Code Of Google Apps Script
+
+   /**
+ * Creates a Google Doc and sends an email to the current user with a link to the doc.
+ */
+function createAndSendDocument() {
+  // Create a new Google Doc named 'Hello, world!'
+  var doc = DocumentApp.create('Hello, world!');
+
+  // Access the body of the document, then add a paragraph.
+  doc.getBody().appendParagraph('This document was created by Google Apps Script.');
+
+  // Get the URL of the document.
+  var url = doc.getUrl();
+
+  // Get the email address of the active user - that's you.
+  var email = Session.getActiveUser().getEmail();
+
+  // Get the name of the document to use as an email subject line.
+  var subject = doc.getName();
+
+  // Append a new string to the "url" variable to use as an email body.
+  var body = 'Link to your doc: ' + url;
+
+  // Send yourself an email with a link to the document.
+  GmailApp.sendEmail(email, subject, body);
+}
+
+```
+[About Code](https://developers.google.com/apps-script/overview#your_first_script)
