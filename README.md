@@ -36,4 +36,8 @@ Pizza is a savory dish of **Italian** origin and it  is the epitome of a perfect
   | Kerry    | 8     | $800  |
   | Taj Mahal | 4    | $150  |
   | Maldives | 24    | $1500 |
-  
+
+
+###  Quotes
+“ The purpose of our lives is to be happy.” - *Dalai Lama* <br>
+“You only live once, but if you do it right, once is enough.” - *Mae West*
