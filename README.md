@@ -23,3 +23,17 @@ Pizza is a savory dish of **Italian** origin and it  is the epitome of a perfect
 * The game's governing body is the International Cricket Council (ICC).
 
 [About Me](https://github.com/MehalS542312/Assignment2-Mula/blob/main/AboutMe.md)
+
+---------------------------------------
+
+### Interesting places
+  
+  There are so my places to visit in the World.Some of those locations are:
+
+  | Location | Hours | Money |
+  | -------  | ----- | ----- |
+  | Bali     | 12    | $1000 |
+  | Kerry    | 8     | $800  |
+  | Taj Mahal | 4    | $150  |
+  | Maldives | 24    | $1500 |
+  
